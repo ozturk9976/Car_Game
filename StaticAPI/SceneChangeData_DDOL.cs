@@ -31,7 +31,6 @@ public class SceneChangeData_DDOL : MonoBehaviour
 
     private void ChangedActiveScene(Scene current, Scene next)
     {
-        Debug.Log("it worked");
         if (Time.timeScale != 1)
         {
             Time.timeScale = 1;
