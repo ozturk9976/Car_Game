@@ -28,7 +28,7 @@ public class CarController : MonoBehaviour
     [SerializeField] Vector3 customCentreOfMass;
 
     [SerializeField] Rigidbody rb;
-    [Header("Wheel Stuff")]
+    [Header("Wheel Beahivours")]
     [SerializeField] private float brakePower;
     [SerializeField] private float wheelTurn_Degree;
     [SerializeField] private float wheelTurn_Smoothing;
